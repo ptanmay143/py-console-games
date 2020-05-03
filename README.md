@@ -1,6 +1,6 @@
 # Python Console Games
 
-A collection of console-based games on Python
+A collection of console-based games on Python.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ git clone https://github.com/ptanmay143/py-console-games.git
 cd py-console-games
 ```
 
-- Run the program by substituting the name of the game in place of _filename_.
+- Run the program by substituting the name of the game in place of _filename_. For example, rock-paper-scissor.
 
 ```bash
 python filename.py
