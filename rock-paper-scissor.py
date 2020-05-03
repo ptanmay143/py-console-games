@@ -1,10 +1,6 @@
 import random
 
-choices = []
-
-
 def Welcome():
-    global choices
     play = input(
         "\nWould you like to play the rock paper scissor game? Enter 'p' to play or 'q' to quit : "
     )
@@ -12,7 +8,6 @@ def Welcome():
         print(
             "\nWelcome to a game of rock paper scissor.\nYou will be playing against the dumb computer.\nLet's see if you can win.\nGood Luck"
         )
-        choices = ["r", "p", "s"]
         PlayGame()
     if play == "q":
         SystemExit
@@ -22,8 +17,9 @@ def Welcome():
 
 
 def PlayGame():
-    playUser = TurnUser()
-    playComputer = TurnComputer()
+    choices = ["r", "p", "s"]
+    playUser = TurnUser(choices)
+    playComputer = TurnComputer(choices)
     print("\nYou chose", playUser, "and computer chose", playComputer)
     if playUser == "r":
         if playComputer == "r":
@@ -46,10 +42,10 @@ def PlayGame():
             print("You win")
         elif playComputer == "s":
             print("Tie")
-    print("\nThank you for playing")
+    print("\nThank you for playing.")
 
 
-def TurnUser():
+def TurnUser(choices):
     print("\nEnter your choice as follows")
     print("(r)ock (p)aper (s)cissor : ")
     playUser = input()
@@ -60,9 +56,9 @@ def TurnUser():
         TurnUser()
 
 
-def TurnComputer():
+def TurnComputer(choices):
     playComputer = random.choice(choices)
     return playComputer
 
-
-Welcome()
+if __name__ == "__main__":
+    Welcome()
