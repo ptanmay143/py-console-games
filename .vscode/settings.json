@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "C:\\tools\\miniconda3\\python.exe",
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "python.pythonPath": "C:\\tools\\miniconda3\\python.exe"
 }

@@ -4,22 +4,22 @@ A collection of console-based games on Python.
 
 ## Requirements
 
-- python=3
+- Python 3
   - colorama
   - termcolor
 
-## Usage
+## Instructions
 
-- Clone this repository.
+Clone this repository.
 
-```bash
+```ps
 git clone https://github.com/ptanmay143/py-console-games.git
-cd py-console-games
+Set-Location py-console-games
 ```
 
-- Run the program by substituting the name of the game in place of _filename_. For example, rock-paper-scissor.
+Run the program by substituting the name of the game in place of `filename.py`. For example, `rock-paper-scissor.py`.
 
-```bash
+```ps
 python filename.py
 ```
 

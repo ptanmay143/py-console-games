@@ -1,5 +1,6 @@
 import random
 
+
 def Welcome():
     play = input(
         "\nWould you like to play the rock paper scissor game? Enter 'p' to play or 'q' to quit : "
@@ -59,6 +60,7 @@ def TurnUser(choices):
 def TurnComputer(choices):
     playComputer = random.choice(choices)
     return playComputer
+
 
 if __name__ == "__main__":
     Welcome()
