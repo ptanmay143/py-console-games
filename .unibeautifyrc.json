@@ -1,11 +1,11 @@
 {
-    "JSON": {
-        "beautifiers": ["Prettier"]
-    },
-    "Markdown": {
-        "beautifiers": ["Prettier"]
-    },
-    "Python": {
-        "beautifiers": ["Black"]
-    }
+  "JSON": {
+    "beautifiers": ["Prettier"]
+  },
+  "Markdown": {
+    "beautifiers": ["Prettier"]
+  },
+  "Python": {
+    "beautifiers": ["Black"]
+  }
 }
