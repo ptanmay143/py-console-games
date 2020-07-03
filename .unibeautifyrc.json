@@ -1,11 +1,11 @@
 {
     "JSON": {
-        "beautifiers": ["Prettier", "Pretty Diff", "JS-Beautify"]
+        "beautifiers": ["Prettier"]
     },
     "Markdown": {
         "beautifiers": ["Prettier"]
     },
     "Python": {
-        "beautifiers": ["YAPF", "Black"]
+        "beautifiers": ["Black"]
     }
 }
