@@ -1,25 +1,46 @@
 # Python Console Games
 
-Collection of console-based games
+> Collection of Python 3 console-based games
 
-## Description
-
-These games were built using Python 3.
-
-## Requirements
-
-- Python 3
-  - colorama
-  - termcolor
+![Dumb Tic Tac Toe](/assets/dumb-tic-tac-toe.png?raw=true)
 
 ## Instructions
 
-Run the program by substituting the name of the game in place of `filename.py`. For example: `rock-paper-scissor.py`.
+### Setup
 
-```ps
-python filename.py
-```
+- Install [Git-SCM](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-## License
+- Clone this repository and change directory to the cloned folder.
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+  ```powershell
+  git clone https://github.com/ptanmay143/py-console-games.git
+  Set-Location .\py-console-games\
+  ```
+
+- Install [Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
+
+- Create a new conda environment with the name `py-console-games` and install the required dependencies.
+
+  ```powershell
+  conda create -n py-console-games python colorama termcolor
+  ```
+
+### Usage
+
+- Activate the conda environment.
+
+  ```powershell
+  conda activate py-console-games
+  ```
+
+- Run the `dumb-tic-tac-toe.py` python script to play a game of tic tac toe.
+
+  ```powershell
+  python .\dumb-tic-tac-toe.py
+  ```
+
+- Run the `rock-paper-scissor.py` python script to play a game of rock, paper and scissor.
+
+  ```powershell
+  python .\rock-paper-scissor.py
+  ```
