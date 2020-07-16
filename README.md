@@ -24,16 +24,6 @@
   ```powershell
   conda create -n py-console-games python colorama termcolor
   ```
-### Alternative setup (without miniconda)
-Install virtualenv and create new:
-```powershell
-pip3 install virtualenv
-virtualenv venv
-source venv/bin/activate
-pip3 install requirements.txt
-```
-Then run game using this terminal
-
 
 ### Usage
 

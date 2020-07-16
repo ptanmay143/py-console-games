@@ -132,8 +132,9 @@ def TurnComputer(availableChoices, plays):
     availableChoices.remove(choice)
     return availableChoices, plays
 
+
 def clear_console():
-    os.system("cls" if os.name == "nt" else "clear")          
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 if __name__ == "__main__":
