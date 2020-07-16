@@ -5,7 +5,7 @@ from termcolor import colored
 
 
 def Welcome():
-    os.system("cls" if os.name == "nt" else "clear")
+    clear_console()
     play = input(
         "\nWould you like to play the dumb tic-tac-toe game? Enter 'p' to play or 'q' to quit : "
     )
@@ -44,7 +44,7 @@ def PlayGame():
 
 
 def GameBoard(plays):
-    os.system("cls" if os.name == "nt" else "clear")
+    clear_console()
     print("\n")
     GameBoardColor(plays, 0)
     print("|", end=" ")
@@ -119,10 +119,10 @@ def TurnUser(availableChoices, plays):
             availableChoices.remove(choice)
         else:
             print("The position is already filled, try again!")
-            TurnUser()
+            TurnUser(availableChoices, plays)
     else:
         print("Invalid position, try again!")
-        TurnUser()
+        TurnUser(availableChoices, plays)
     return availableChoices, plays
 
 
@@ -131,6 +131,10 @@ def TurnComputer(availableChoices, plays):
     plays[choice] = "O"
     availableChoices.remove(choice)
     return availableChoices, plays
+
+
+def clear_console():
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 if __name__ == "__main__":
