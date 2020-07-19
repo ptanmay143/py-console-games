@@ -1,6 +1,6 @@
 # Python Console Games
 
-> Collection of Python 3 console-based games
+> Command line interface games
 
 ![Dumb Tic Tac Toe](/assets/dumb-tic-tac-toe.png?raw=true)
 
