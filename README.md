@@ -4,6 +4,11 @@
 
 ![Dumb Tic Tac Toe](/assets/dumb-tic-tac-toe.png?raw=true)
 
+- [Python Console Games](#python-console-games)
+  - [Instructions](#instructions)
+    - [Setup](#setup)
+    - [Usage](#usage)
+
 ## Instructions
 
 ### Setup
