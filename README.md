@@ -1,13 +1,18 @@
+<!-- omit in toc -->
 # Python Console Games
 
 > Command line interface games
 
-![Dumb Tic Tac Toe](/assets/dumb-tic-tac-toe.png?raw=true)
+![Dumb Tic-Tac-Toe](/assets/dumb-tic-tac-toe.png?raw=true)
 
-- [Python Console Games](#python-console-games)
-  - [Instructions](#instructions)
-    - [Setup](#setup)
-    - [Usage](#usage)
+---
+
+- [Instructions](#instructions)
+  - [Setup](#setup)
+  - [Usage](#usage)
+- [License](#license)
+
+---
 
 ## Instructions
 
@@ -17,16 +22,16 @@
 
 - Clone this repository and change directory to the cloned folder.
 
-  ```powershell
+  ```shell
   git clone https://github.com/ptanmay143/py-console-games.git
-  Set-Location .\py-console-games\
+  cd ./py-console-games/
   ```
 
 - Install [Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 - Create a new conda environment with the name `py-console-games` and install the required dependencies.
 
-  ```powershell
+  ```shell
   conda create -n py-console-games python colorama termcolor
   ```
 
@@ -34,18 +39,26 @@
 
 - Activate the conda environment.
 
-  ```powershell
+  ```shell
   conda activate py-console-games
   ```
 
-- Run the `dumb-tic-tac-toe.py` python script to play a game of tic tac toe.
+- Run the `dumb-tic-tac-toe.py` python script to play a game of tic-tac-toe.
 
-  ```powershell
-  python .\dumb-tic-tac-toe.py
+  ```shell
+  python ./dumb-tic-tac-toe.py
   ```
 
 - Run the `rock-paper-scissor.py` python script to play a game of rock, paper and scissor.
 
-  ```powershell
-  python .\rock-paper-scissor.py
+  ```shell
+  python ./rock-paper-scissor.py
   ```
+
+---
+
+## License
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
