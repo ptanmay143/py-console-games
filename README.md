@@ -1,5 +1,3 @@
-<!-- omit in toc -->
-
 # Python Console Games
 
 > Command line interface games
