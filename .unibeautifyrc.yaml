@@ -1,6 +1,0 @@
-Markdown:
-  beautifiers:
-    - Prettier
-Python:
-  beautifiers:
-    - Black
