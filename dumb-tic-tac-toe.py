@@ -112,7 +112,8 @@ def CheckWin(plays):
 
 
 def TurnUser(availableChoices, plays):
-    choice = int(input("\nEnter the position where you want to play this round : "))
+    choice = int(
+        input("\nEnter the position where you want to play this round : "))
     if choice < 9:
         if choice in availableChoices:
             plays[choice] = "X"
