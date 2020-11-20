@@ -29,10 +29,16 @@
 
 - Install [Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-- Create a new conda environment with the name `py-console-games` and install the required dependencies.
+- Create a conda environment.
 
   ```shell
-  conda create -n py-console-games python colorama termcolor
+  conda create -n py-console-games
+  ```
+
+- Install required dependencies.
+
+  ```shell
+  conda env create -f ./environment.yml
   ```
 
 ### Usage
